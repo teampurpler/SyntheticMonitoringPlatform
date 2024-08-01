@@ -55,7 +55,8 @@ Observability provides insights into system internals, while synthetic monitorin
 ​Together, they offer a robust approach to maintaining system health and user satisfaction.
 
 
-#**Ping Synthetic Monitor**
+
+# Ping Synthetic Monitor
 
 Essential tool in Monitoring setup​
 
