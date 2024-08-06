@@ -1,0 +1,5 @@
+servers:
+  - google.com
+  - github.com
+  - openai.com
+interval: 10
