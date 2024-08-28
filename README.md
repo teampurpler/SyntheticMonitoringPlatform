@@ -87,7 +87,7 @@ Summaries (client-side quantiles): Similar in spirit to the Histogram. Use when 
 
 
 # **Grafana**
-Dashboard: Grafana provides a user- friendly dashboard for visualizing time series data, logs, and application metrics in a single interface. ​
+Dashboard: Grafana provides a user-friendly dashboard for visualizing time series data, logs, and application metrics in a single interface. ​
 
 ​
 Data Visualization: Grafana offers a wide range of visualization options, including graphs, charts, and heatmaps, to help users gain insights from their data.​
