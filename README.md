@@ -1,6 +1,11 @@
 # **SyntheticMonitoringPlatform**
 Develop a Synthetic Monitoring Platform 
 
+# System Design Diagram 
+ - Pinging the server
+ - gathering data in Prometheus
+ - Rafana for visualization
+   
 
 # Introduction to Observability and Synthetic Monitoring
 
