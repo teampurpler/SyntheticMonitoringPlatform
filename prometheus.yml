@@ -27,3 +27,8 @@ scrape_configs:
 
     static_configs:
       - targets: ["localhost:9090", "localhost:8989"] # Prometheus self monitor 
+
+  - job_name: 'ping_monitor'
+    static_configs:
+      - targets: ['localhost:8000']
+
