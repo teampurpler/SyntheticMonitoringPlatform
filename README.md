@@ -71,3 +71,11 @@ First step in troubleshooting when an application or website becomes unavailable
 
 
 # **Prometheus**
+
+Counter (the only way is up): Use counters for counting events, jobs, money, HTTP request, etc. where a cumulative value is useful.​
+
+Gauges (the current picture): Use where the current value is important — CPU, RAM, JVM memory usage, queue levels, RTT, Packet Loss etc.​
+
+Histograms (Sampling Observations): Generally use with timings, where an overall picture over a time frame is required — query times, HTTP response times.​
+
+Summaries (client-side quantiles): Similar in spirit to the Histogram. Use when you start using quantile values frequently with one or more histogram metrics.
