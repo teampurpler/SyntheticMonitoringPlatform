@@ -4,7 +4,7 @@ Develop a Synthetic Monitoring Platform
 # System Design Diagram 
  - Pinging the server
  - gathering data in Prometheus
- - Rafana for visualization
+ - Grafana for visualization
    
 
 # Introduction to Observability and Synthetic Monitoring
@@ -84,3 +84,13 @@ Gauges (the current picture): Use where the current value is important — CPU, 
 Histograms (Sampling Observations): Generally use with timings, where an overall picture over a time frame is required — query times, HTTP response times.​
 
 Summaries (client-side quantiles): Similar in spirit to the Histogram. Use when you start using quantile values frequently with one or more histogram metrics.
+
+
+# **Grafana**
+Dashboard: Grafana provides a user-friendly dashboard for visualizing time series data, logs, and application metrics in a single interface. ​
+
+​
+Data Visualization: Grafana offers a wide range of visualization options, including graphs, charts, and heatmaps, to help users gain insights from their data.​
+
+​
+Monitoring Tool: As a monitoring tool, Grafana enables real-time monitoring and analysis of system performance, infrastructure, and application health.
